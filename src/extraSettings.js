@@ -26,7 +26,7 @@ let setFruits = {
 }
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
-let fruitQTan = false;
+let fruitQTan = 0.9;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
 let fruitSlowDown = false;
@@ -41,5 +41,5 @@ let adLink = '';
 document.getElementsByTagName("title")[0].innerText = '致未成为英雄之人的十三位逐火者';
 
 // 开启选分弹窗：将 false 改为 true
-let selectModal = false;
+let selectModal = true;
 
