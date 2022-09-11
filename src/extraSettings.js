@@ -41,5 +41,5 @@ let adLink = '';
 document.getElementsByTagName("title")[0].innerText = '致未成为英雄之人的十三位逐火者';
 
 // 开启选分弹窗：将 false 改为 true
-let selectModal = true;
+let selectModal = false;
 
